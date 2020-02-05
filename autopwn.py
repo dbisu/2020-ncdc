@@ -47,7 +47,7 @@ def tryDefaultCreds(machineName, machineIndex):
     print()
 
 def findMachines():
-    for n in range(1,30):
+    for n in range(1,numTeams):
         index = 0
         for machine in machines[:]:
             print("searching for "+ machine[0] + " in team" + str(n))
@@ -66,7 +66,7 @@ def findMachines():
 
 
 def main():
-    print("Running 2019 autopwn script\n")
+    print("Running 2020 autopwn script\n")
     findMachines()
 
 
